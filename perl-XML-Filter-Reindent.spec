@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Reindent
+%define		pdir	XML
+%define		pnam	Filter-Reindent
 Summary:	XML::Filter::Reindent - reformats whitespace for pretty printing XML
 Summary(pl):	XML::Filter::Reindent - przeformatowanie spacji dla ³adnego druku XML-a
 Name:		perl-XML-Filter-Reindent
