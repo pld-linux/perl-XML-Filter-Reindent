@@ -15,7 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e3283c7e4cf5da68c1ffb17a454f58c6
-BuildRequires:	perl-devel >= 5.8.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-XML-Filter-DetectWS
@@ -30,7 +30,11 @@ XML::Filter::DetectWS.  XML::Filter::Reindent can be used as a PerlSAX
 filter to reformat an XML document before sending it to a PerlSAX
 handler that prints it (like XML::Handler::Composer).
 
-#%description -l pl
+%description -l pl
+Modu³ Perla XML::Filter::Reindent to podklasa XML::Filter::DetectWS.
+Mo¿e byæ u¿ywany jako filtr PerlSAX do przeformatowywania dokumentów
+XML przed przes³aniem ich do procedury obs³ugi PerlSAX drukuj±cej go
+(jak XML::Handler::Composer).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
