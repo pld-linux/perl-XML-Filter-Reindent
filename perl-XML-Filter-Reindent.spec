@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-Reindent
-Summary:	XML::Filter::Reindent - 
-Summary(pl):	XML::Filter::Reindent - 
+Summary:	XML::Filter::Reindent - reformats whitespace for pretty printing XML
+Summary(pl):	XML::Filter::Reindent - przeformatowanie spacji dla ³adnego druku XML-a
 Name:		perl-XML-Filter-Reindent
 Version:	0.03
 Release:	1
@@ -18,13 +18,17 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-XML-UM
+BuildRequires:	perl-XML-Filter-DetectWS
 %endif
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+XML::Filter::Reindent Perl module is a sub class of
+XML::Filter::DetectWS.  XML::Filter::Reindent can be used as a PerlSAX
+filter to reformat an XML document before sending it to a PerlSAX
+handler that prints it (like XML::Handler::Composer).
 
 #%description -l pl
 
