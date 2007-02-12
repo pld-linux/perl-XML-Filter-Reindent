@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Reindent
 Summary:	XML::Filter::Reindent - reformats whitespace for pretty printing XML
-Summary(pl):	XML::Filter::Reindent - przeformatowanie spacji dla ≥adnego druku XML-a
+Summary(pl.UTF-8):   XML::Filter::Reindent - przeformatowanie spacji dla ≈Çadnego druku XML-a
 Name:		perl-XML-Filter-Reindent
 Version:	0.03
 Release:	1
@@ -30,10 +30,10 @@ XML::Filter::DetectWS.  XML::Filter::Reindent can be used as a PerlSAX
 filter to reformat an XML document before sending it to a PerlSAX
 handler that prints it (like XML::Handler::Composer).
 
-%description -l pl
-Modu≥ Perla XML::Filter::Reindent to podklasa XML::Filter::DetectWS.
-Moøe byÊ uøywany jako filtr PerlSAX do przeformatowywania dokumentÛw
-XML przed przes≥aniem ich do procedury obs≥ugi PerlSAX drukuj±cej go
+%description -l pl.UTF-8
+Modu≈Ç Perla XML::Filter::Reindent to podklasa XML::Filter::DetectWS.
+Mo≈ºe byƒá u≈ºywany jako filtr PerlSAX do przeformatowywania dokument√≥w
+XML przed przes≈Çaniem ich do procedury obs≈Çugi PerlSAX drukujƒÖcej go
 (jak XML::Handler::Composer).
 
 %prep
