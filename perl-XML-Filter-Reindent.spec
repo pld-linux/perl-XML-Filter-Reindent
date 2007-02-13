@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Reindent
 Summary:	XML::Filter::Reindent - reformats whitespace for pretty printing XML
-Summary(pl.UTF-8):   XML::Filter::Reindent - przeformatowanie spacji dla ładnego druku XML-a
+Summary(pl.UTF-8):	XML::Filter::Reindent - przeformatowanie spacji dla ładnego druku XML-a
 Name:		perl-XML-Filter-Reindent
 Version:	0.03
 Release:	1
