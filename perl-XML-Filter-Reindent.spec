@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-Reindent
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Reindent - reformats whitespace for pretty printing XML
 Summary(pl.UTF-8):	XML::Filter::Reindent - przeformatowanie spacji dla ładnego druku XML-a
 Name:		perl-XML-Filter-Reindent
